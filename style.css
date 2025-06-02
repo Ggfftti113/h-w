@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #000;
+  color: white;
+}
+
+.main-header {
+  background-color: #111;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: yellow;
+}
+
+.logo span {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.lang-play {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.play-btn {
+  background-color: #f9c400;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.hero {
+  background-image: url('./image\ 5\ \(1\).png');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.platform-buttons {
+  margin-bottom: 30px;
+}
+
+.btn-yellow,
+.btn-black {
+  padding: 10px 30px;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.btn-yellow {
+  background-color: #f9c400;
+  color: black;
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+}
+
+.headline-box {
+  background-color: rgba(255, 200, 0, 0.8);
+  padding: 20px 40px;
+  border-radius: 4px;
+}
+
+.headline-box h1 {
+  font-size: 28px;
+  color: white;
+}
+
+.main-footer {
+  background-color: #000;
+  color: #f9c400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-top: 1px solid #444;
+}
+
+.footer-logo {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.social-icons a {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 25px;
+  height: 25px;
+  filter: brightness(0) invert(1); /* делаем иконки белыми */
+  transition: 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+.lang-select {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px;
+  outline: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.lang-select option {
+  color: black;
+}
+
+a:hover{
+  color: #f9c400;
+}
